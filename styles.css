@@ -55,6 +55,7 @@ h1, h2{
 .card-information > div > p{
     width: 100%;
     word-break:break-word;
+    padding-left: 1vw;
 }
 
 .card-information > div > p > span{
@@ -79,5 +80,11 @@ h1, h2{
 @media (max-width: 768px){
     .card{
         width: 80%;
+    }
+    .card-information > div > p{
+        padding-left: 2vw;
+    }
+    .card-information > div > img{
+        padding-right: 1vw;
     }
 }
